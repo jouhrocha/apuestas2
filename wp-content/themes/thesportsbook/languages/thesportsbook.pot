@@ -1,0 +1,1712 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flytonic\n"
+"POT-Creation-Date: 2018-05-22 08:40-0500\n"
+"PO-Revision-Date: 2018-04-13 13:59-0500\n"
+"Last-Translator: \n"
+"Language-Team: Flytonic\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"Page not found or has been removed.  Please browse one of our other pages. "
+"Search our site below"
+msgstr ""
+
+#: archive.php:20
+msgid "Posts Tagged:"
+msgstr ""
+
+#: archive.php:23 archive.php:26 archive.php:29
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:32
+msgid "Search Results"
+msgstr ""
+
+#: archive.php:35
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:38
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:37
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:38
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:59
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: comments.php:60
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:61
+msgid "Submit"
+msgstr ""
+
+#: comments.php:71
+msgid "Name"
+msgstr ""
+
+#: comments.php:77
+msgid "Email"
+msgstr ""
+
+#: comments.php:83
+msgid "Website"
+msgstr ""
+
+#: footer.php:57
+msgid "Copyright "
+msgstr ""
+
+#: footer.php:57
+msgid "All Rights Reserved"
+msgstr ""
+
+#: header.php:51
+msgid "Menu"
+msgstr ""
+
+#: header.php:83 searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: includes/banner-manager.php:145 includes/banner-manager.php:495
+msgid "Banner Manager"
+msgstr ""
+
+#: includes/banner-manager.php:229
+msgid "Create Banner in"
+msgstr ""
+
+#: includes/banner-manager.php:232 includes/banner-manager.php:334
+#: includes/banner-manager.php:519 includes/banner-manager.php:530
+#: includes/hitcounter.php:88 includes/hitcounter.php:96
+#: includes/theme-setup.php:66 includes/widgets/topsites_widget.php:253
+msgid "Title"
+msgstr ""
+
+#: includes/banner-manager.php:234 includes/banner-manager.php:336
+msgid "A name for the banner so you can quickly identify banners later"
+msgstr ""
+
+#: includes/banner-manager.php:237 includes/banner-manager.php:339
+msgid "Simple Banner"
+msgstr ""
+
+#: includes/banner-manager.php:241 includes/banner-manager.php:343
+msgid "Image"
+msgstr ""
+
+#: includes/banner-manager.php:243
+msgid "Choose Image"
+msgstr ""
+
+#: includes/banner-manager.php:244
+msgid "Clear Field"
+msgstr ""
+
+#: includes/banner-manager.php:245 includes/banner-manager.php:347
+msgid "Upload an image to use as your banner"
+msgstr ""
+
+#: includes/banner-manager.php:248 includes/banner-manager.php:350
+msgid "Link"
+msgstr ""
+
+#: includes/banner-manager.php:250 includes/banner-manager.php:352
+msgid "Enter the URL the banner should link to"
+msgstr ""
+
+#: includes/banner-manager.php:253 includes/banner-manager.php:355
+msgid "Alt Text"
+msgstr ""
+
+#: includes/banner-manager.php:255 includes/banner-manager.php:357
+msgid "Alt text to be used on the link and image"
+msgstr ""
+
+#: includes/banner-manager.php:259 includes/banner-manager.php:361
+msgid "HTML Banner"
+msgstr ""
+
+#: includes/banner-manager.php:263 includes/banner-manager.php:365
+msgid "Banner HTML"
+msgstr ""
+
+#: includes/banner-manager.php:265 includes/banner-manager.php:367
+msgid "Paste HTML code from a banner exchange or affiliate program"
+msgstr ""
+
+#: includes/banner-manager.php:269
+msgid "Create Banner"
+msgstr ""
+
+#: includes/banner-manager.php:270 includes/banner-manager.php:372
+msgid "Cancel"
+msgstr ""
+
+#: includes/banner-manager.php:331
+msgid "Edit Banner"
+msgstr ""
+
+#: includes/banner-manager.php:371
+msgid "Save Banner"
+msgstr ""
+
+#: includes/banner-manager.php:499
+msgid "Create a group"
+msgstr ""
+
+#: includes/banner-manager.php:500
+msgid ""
+"An ad group contains one or more advertisements to be displayed on your site "
+"in a particular location. To create a new group begin by typing a name below "
+"and pressing \"create\""
+msgstr ""
+
+#: includes/banner-manager.php:502
+msgid "Group Title:"
+msgstr ""
+
+#: includes/banner-manager.php:507
+msgid ""
+"Each group can contain one or more advertisements. Advertisements will be "
+"selected randomly from the group, and you may selectively disable individual "
+"advertisements to stop them from appearing temporarily."
+msgstr ""
+
+#: includes/banner-manager.php:513
+msgid "Template Tag:"
+msgstr ""
+
+#: includes/banner-manager.php:518 includes/banner-manager.php:529
+msgid "Active"
+msgstr ""
+
+#: includes/banner-manager.php:520 includes/banner-manager.php:531
+msgid "Type"
+msgstr ""
+
+#: includes/banner-manager.php:521 includes/banner-manager.php:532
+#: includes/hitcounter.php:35 includes/hitcounter.php:89
+#: includes/hitcounter.php:97 includes/redirects.php:181
+msgid "Hits"
+msgstr ""
+
+#: includes/banner-manager.php:522 includes/banner-manager.php:533
+#: includes/redirects.php:238
+msgid "Key"
+msgstr ""
+
+#: includes/banner-manager.php:523 includes/banner-manager.php:534
+#: includes/redirects.php:182
+msgid "Actions"
+msgstr ""
+
+#: includes/banner-manager.php:550 includes/hitcounter.php:108
+#: includes/post-types/slider-post-type.php:17 includes/redirects.php:201
+msgid "Edit"
+msgstr ""
+
+#: includes/banner-manager.php:551 includes/redirects.php:202
+msgid "Delete"
+msgstr ""
+
+#: includes/banner-manager.php:553
+msgid "Deactivate"
+msgstr ""
+
+#: includes/banner-manager.php:555
+msgid "Activate"
+msgstr ""
+
+#: includes/banner-manager.php:557 includes/redirects.php:203
+msgid "Reset Hits"
+msgstr ""
+
+#: includes/banner-manager.php:563
+msgid "Create new banner"
+msgstr ""
+
+#: includes/banner-manager.php:647
+msgid "BannerAd"
+msgstr ""
+
+#: includes/banner-manager.php:648
+msgid "Display banner in widgets"
+msgstr ""
+
+#: includes/banner-manager.php:693
+msgid "Title (Optional):"
+msgstr ""
+
+#: includes/banner-manager.php:697
+msgid "Group:"
+msgstr ""
+
+#: includes/banner-manager.php:705
+msgid "Banner Title:"
+msgstr ""
+
+#: includes/banner-manager.php:707
+msgid "Random"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:11
+msgid "Sportsbook Properties"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:12
+msgid "Blog Page Options"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:13
+msgid "Slider Properties"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:14
+msgid "Landing Page Properties"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:87
+msgid "Site Name"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:88
+msgid "Name of sportsbook to be displayed"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:100
+msgid "Site Affiliate URL"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:101
+msgid "The referral url from the affiliate program"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:112 includes/redirects.php:179
+msgid "Redirect Key"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:113
+msgid ""
+"This is just a word to hide the full affiliate url that you create.  So the "
+"new url would be to visit the site would"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:123
+msgid "Screenshot"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:124
+msgid "The screenshot of the website to be shown on the review page"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:139
+msgid "Payout percent"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:151
+msgid "Minimum Deposit (with currency)"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:163
+msgid "Bonus Headline"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:164
+msgid ""
+"This is the bonus information displayed in the widgets and shortcode table.  "
+"Include text and numbers..etc"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:175
+msgid "Site Editor Rating"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:176
+msgid "Select the rating to be show to visitors"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:181 includes/custom_meta_boxes.php:446
+#: includes/widgets/topsites_widget.php:261
+#: includes/widgets/topsites_widget.php:272
+#: includes/widgets/topsites_widget.php:284
+#: includes/widgets/topsites_widget.php:296
+#: includes/widgets/topsites_widget.php:307
+#: includes/widgets/topsites_widget.php:318
+#: includes/widgets/topsites_widget.php:329
+#: includes/widgets/topsites_widget.php:340
+#: includes/widgets/topsites_widget.php:351
+#: includes/widgets/topsites_widget.php:362
+#: includes/widgets/topsites_widget.php:373
+#: includes/widgets/topsites_widget.php:384
+#: includes/widgets/topsites_widget.php:395
+#: includes/widgets/topsites_widget.php:406
+#: includes/widgets/topsites_widget.php:417
+#: includes/widgets/topsites_widget.php:428
+#: includes/widgets/topsites_widget.php:439
+#: includes/widgets/topsites_widget.php:450
+#: includes/widgets/topsites_widget.php:461
+#: includes/widgets/topsites_widget.php:472
+msgid "Select"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:196
+msgid "Features, separate each by |"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:206
+msgid "Review Page Sub Headline"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:216
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:220
+msgid "Display Terms and Conditions"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:224
+msgid "Terms and conditions text"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:310 includes/custom_meta_boxes.php:381
+#: includes/shortcodes/buttons-sc-window.php:27
+msgid "Button Text"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:318
+msgid "Slider Url"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:319 includes/custom_meta_boxes.php:390
+msgid "Enter The absolute url including http:// or https://"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:362
+msgid "Landing Page Top Title"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:372
+msgid "Landing Page Sub Title"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:389
+msgid "Button Url"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:440
+msgid "Show Excerpts Instead of Full Posts"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:447
+#: includes/shortcodes/btable-sc-window.php:137
+#: includes/shortcodes/btable2-sc-window.php:136
+msgid "Yes"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:448
+#: includes/shortcodes/btable-sc-window.php:138
+#: includes/shortcodes/btable2-sc-window.php:137
+msgid "No"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:458
+msgid "Show Posts From This Cat Only"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:459
+msgid "Choose to only show posts from this category"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:464
+msgid "All"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:476
+msgid "Number of Posts To Show"
+msgstr ""
+
+#: includes/custom_meta_boxes.php:477
+msgid "Enter a number here"
+msgstr ""
+
+#: includes/design-options.php:16
+msgid "Body Content Link Color"
+msgstr ""
+
+#: includes/design-options.php:18
+msgid "Body Link Hover Color"
+msgstr ""
+
+#: includes/design-options.php:20
+msgid "Bonus Text Color"
+msgstr ""
+
+#: includes/design-options.php:20
+msgid "Change the color of the bonus text, which is a red color"
+msgstr ""
+
+#: includes/design-options.php:22
+msgid "Orange Tab and Borders Color"
+msgstr ""
+
+#: includes/design-options.php:22
+msgid ""
+"Change the color of navigation and footer border as well as teh hover and "
+"active page tab color"
+msgstr ""
+
+#: includes/design-options.php:29
+msgid "Main Visit Button Color"
+msgstr ""
+
+#: includes/design-options.php:31
+msgid "Main Visit Button Text Color"
+msgstr ""
+
+#: includes/design-options.php:38
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/design-options.php:38
+msgid "Change the color of the white background of the header."
+msgstr ""
+
+#: includes/design-options.php:39
+msgid "Header/Navigation Combination Background Color"
+msgstr ""
+
+#: includes/design-options.php:39
+msgid "Combination of header footer background color style, all in one change."
+msgstr ""
+
+#: includes/design-options.php:45
+msgid "Top Footer Background Color"
+msgstr ""
+
+#: includes/design-options.php:45
+msgid "Change the color of the top footer area"
+msgstr ""
+
+#: includes/design-options.php:47
+msgid "Bottom Footer Background Color"
+msgstr ""
+
+#: includes/design-options.php:47
+msgid "Change the color of the bottom footer area"
+msgstr ""
+
+#: includes/design-options.php:49
+msgid "Footer Heading Bottom Border Color"
+msgstr ""
+
+#: includes/design-options.php:49
+msgid "Change the color of the top footer heading border"
+msgstr ""
+
+#: includes/design-options.php:58 includes/shortcodes/buttons-sc-window.php:76
+msgid "Background Color"
+msgstr ""
+
+#: includes/design-options.php:58
+msgid "Change the color of the gray background."
+msgstr ""
+
+#: includes/design-options.php:60
+msgid "Background Image"
+msgstr ""
+
+#: includes/design-options.php:60
+msgid "The background image of the body"
+msgstr ""
+
+#: includes/design-options.php:62
+msgid "Background Image Repeat"
+msgstr ""
+
+#: includes/design-options.php:62
+msgid "Should the background image repeat"
+msgstr ""
+
+#: includes/design-options.php:68
+msgid "General Font Family"
+msgstr ""
+
+#: includes/design-options.php:68
+msgid "The overall font style"
+msgstr ""
+
+#: includes/design-options.php:70
+msgid "Content Area Font Size"
+msgstr ""
+
+#: includes/design-options.php:70
+msgid "The size of the body text"
+msgstr ""
+
+#: includes/design-options.php:72
+msgid "Sidebar Area Font Size"
+msgstr ""
+
+#: includes/design-options.php:72
+msgid "The size of the sidebar text"
+msgstr ""
+
+#: includes/design-options.php:74
+msgid "Footer Area Font Size"
+msgstr ""
+
+#: includes/design-options.php:74
+msgid "The size of the footer text"
+msgstr ""
+
+#: includes/design-options.php:76
+msgid "Heading H1 Font Family"
+msgstr ""
+
+#: includes/design-options.php:76 includes/design-options.php:80
+msgid "The font type for the H1 headings"
+msgstr ""
+
+#: includes/design-options.php:78
+msgid "Heading H1 Font Size"
+msgstr ""
+
+#: includes/design-options.php:78 includes/design-options.php:82
+msgid "The size of the H1 heading text"
+msgstr ""
+
+#: includes/design-options.php:80
+msgid "Heading H2 Font Family"
+msgstr ""
+
+#: includes/design-options.php:82
+msgid "Heading H2 Font Size"
+msgstr ""
+
+#: includes/design-options.php:84
+msgid "Heading H3 Font Family"
+msgstr ""
+
+#: includes/design-options.php:84
+msgid "The font type for the H3 headings"
+msgstr ""
+
+#: includes/design-options.php:86
+msgid "Heading H3 Font Size"
+msgstr ""
+
+#: includes/design-options.php:86
+msgid "The size of the H3 heading text"
+msgstr ""
+
+#: includes/design-options.php:88
+msgid "Sidebar Widget Heading Font Family"
+msgstr ""
+
+#: includes/design-options.php:88
+msgid "The font type for the sidebar widget headings"
+msgstr ""
+
+#: includes/design-options.php:90
+msgid "Sidebar Widget Heading Font Size"
+msgstr ""
+
+#: includes/design-options.php:90
+msgid "The size of the sidebar widget heading text"
+msgstr ""
+
+#: includes/design-options.php:92
+msgid "Blog Title Font Family"
+msgstr ""
+
+#: includes/design-options.php:92
+msgid "The font type for the blog title"
+msgstr ""
+
+#: includes/design-options.php:94
+msgid "Blog Title Font Size"
+msgstr ""
+
+#: includes/design-options.php:94
+msgid "The font size for the blog title"
+msgstr ""
+
+#: includes/design-options.php:179
+msgid "Design Options"
+msgstr ""
+
+#: includes/design-options.php:253
+msgid "Edit Theme Style"
+msgstr ""
+
+#: includes/design-options.php:254
+msgid ""
+"Choose to alter the design and look of your theme.  All css will be saved to "
+"your custom.css file in the includes folder."
+msgstr ""
+
+#: includes/design-options.php:318 includes/redirects.php:212
+#: includes/theme-options.php:216
+msgid "Save Changes"
+msgstr ""
+
+#: includes/design-options.php:319 includes/theme-options.php:217
+msgid "Reset to Default"
+msgstr ""
+
+#: includes/hitcounter.php:52
+msgid "Hit Statistics"
+msgstr ""
+
+#: includes/hitcounter.php:60
+msgid "Outbound Casino Link Hits"
+msgstr ""
+
+#: includes/hitcounter.php:90 includes/hitcounter.php:98
+msgid "Reset?"
+msgstr ""
+
+#: includes/hitcounter.php:109
+msgid "View"
+msgstr ""
+
+#: includes/hitcounter.php:113
+msgid "Clear"
+msgstr ""
+
+#: includes/hitcounter.php:121
+msgid "Clear ALL Hit Counts"
+msgstr ""
+
+#: includes/options.lib.php:12
+msgid "None"
+msgstr ""
+
+#: includes/options.lib.php:21
+msgid "DEFAULT"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:16
+msgid "Sportsbooks"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:17
+#: includes/shortcodes/bonustable-shortcode.php:31
+msgid "Sportsbook"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:18
+#: includes/post-types/casino-post-type.php:19
+msgid "Add New Sportsbook"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:20
+#: includes/post-types/casino-post-type.php:21
+msgid "Edit Sportsbook"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:22
+msgid "New Sportsbook"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:23
+#: includes/post-types/casino-post-type.php:24
+msgid "View Sportsbook"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:25
+msgid "Search Sportsbooks"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:26
+msgid "No Sportsbooks found"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:27
+msgid "No Sportsbooks found in Trash"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:28
+msgid "Parent Sportsbook"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:45
+#: includes/post-types/casino-post-type.php:55
+msgid "Affiliate Tags"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:46
+msgid "Affiliate tag"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:47
+msgid "Search Affiliate Tags"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:48
+msgid "All Affiliate Tags"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:49
+msgid "Parent Affiliate Tag"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:50
+msgid "Parent Affiliate Tag:"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:51
+msgid "Edit Affiliate Tag"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:52
+msgid "Update Affiliate Tag"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:53
+msgid "Add New Affiliate Tag"
+msgstr ""
+
+#: includes/post-types/casino-post-type.php:54
+msgid "New Affiliate Tag"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:13
+msgid "Slides"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:14
+msgid "Slide"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:15
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:16
+msgid "Add New Slide"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:18
+msgid "Edit Slide"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:19
+msgid "New Slide"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:20
+#: includes/post-types/slider-post-type.php:21
+msgid "View Slide"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:22
+msgid "Search Slide"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:23
+msgid "No Slides found"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:24
+msgid "No Slides found in Trash"
+msgstr ""
+
+#: includes/post-types/slider-post-type.php:25
+msgid "Parent Slide"
+msgstr ""
+
+#: includes/redirects.php:107 includes/theme-options.php:58
+msgid "Redirect Options"
+msgstr ""
+
+#: includes/redirects.php:171
+msgid "Custom Redirects"
+msgstr ""
+
+#: includes/redirects.php:180
+msgid "Url"
+msgstr ""
+
+#: includes/redirects.php:189
+msgid "No custom redirects"
+msgstr ""
+
+#: includes/redirects.php:225
+msgid "Create a custom redirect"
+msgstr ""
+
+#: includes/redirects.php:240
+msgid "URL"
+msgstr ""
+
+#: includes/redirects.php:242
+msgid "Create Redirect"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:32
+msgid "Features"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:35
+#: includes/shortcodes/btable-sc-window.php:129
+msgid "Payout %"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:37
+#: includes/shortcodes/btable-sc-window.php:130
+msgid "Min. Deposit"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:40
+msgid "Bonus"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:42
+#: includes/shortcodes/btable2-sc-window.php:129 includes/theme-setup.php:69
+msgid "Rating"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:43
+#: includes/shortcodes/bonustable-shortcode.php:92
+#: includes/shortcodes/bonustable2-shortcode.php:67
+#: includes/widgets/topsites_widget.php:186 single-casino.php:43
+msgid "Bet Now"
+msgstr ""
+
+#: includes/shortcodes/bonustable-shortcode.php:90
+#: includes/shortcodes/bonustable2-shortcode.php:71
+#: includes/widgets/topsites_widget.php:178
+msgid "Review"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:30
+#: includes/shortcodes/buttons-sc-window.php:51
+msgid "Icon"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:32
+msgid "Info Box"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:33
+msgid "Check Box"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:34
+msgid "Download Box"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:35
+msgid "Error Box"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:36
+msgid "Alert Box"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:42
+msgid "Alert Box Text"
+msgstr ""
+
+#: includes/shortcodes/boxes-sc-window.php:44
+msgid "Enter text here or within the post itself"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:22
+msgid "Sportsbook Comparison Table"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:27
+#: includes/shortcodes/btable2-sc-window.php:27
+msgid "Casino 1"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:36
+#: includes/shortcodes/btable2-sc-window.php:36
+msgid "Casino 2 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:38
+#: includes/shortcodes/btable-sc-window.php:48
+#: includes/shortcodes/btable-sc-window.php:58
+#: includes/shortcodes/btable-sc-window.php:68
+#: includes/shortcodes/btable-sc-window.php:78
+#: includes/shortcodes/btable-sc-window.php:88
+#: includes/shortcodes/btable-sc-window.php:98
+#: includes/shortcodes/btable-sc-window.php:108
+#: includes/shortcodes/btable-sc-window.php:118
+#: includes/shortcodes/btable2-sc-window.php:38
+#: includes/shortcodes/btable2-sc-window.php:48
+#: includes/shortcodes/btable2-sc-window.php:58
+#: includes/shortcodes/btable2-sc-window.php:68
+#: includes/shortcodes/btable2-sc-window.php:78
+#: includes/shortcodes/btable2-sc-window.php:88
+#: includes/shortcodes/btable2-sc-window.php:98
+#: includes/shortcodes/btable2-sc-window.php:108
+#: includes/shortcodes/btable2-sc-window.php:118
+msgid "Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:46
+#: includes/shortcodes/btable2-sc-window.php:46
+msgid "Casino 3 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:56
+#: includes/shortcodes/btable2-sc-window.php:56
+msgid "Casino 4 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:66
+#: includes/shortcodes/btable2-sc-window.php:66
+msgid "Casino 5 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:76
+#: includes/shortcodes/btable2-sc-window.php:76
+msgid "Casino 6 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:86
+#: includes/shortcodes/btable2-sc-window.php:86
+msgid "Casino 7 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:96
+#: includes/shortcodes/btable2-sc-window.php:96
+msgid "Casino 8 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:106
+#: includes/shortcodes/btable2-sc-window.php:106
+msgid "Casino 9 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:116
+#: includes/shortcodes/btable2-sc-window.php:116
+msgid "Casino 10 Optional"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:126
+msgid "Choose extra field to show (default is rating)"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:128
+#: includes/shortcodes/btable2-sc-window.php:128
+#: includes/widgets/topsites_widget.php:497
+msgid "Default"
+msgstr ""
+
+#: includes/shortcodes/btable-sc-window.php:135
+#: includes/shortcodes/btable2-sc-window.php:134
+msgid "Show Review Link or Button?"
+msgstr ""
+
+#: includes/shortcodes/btable2-sc-window.php:22
+msgid "Featured Sportsbook Columns"
+msgstr ""
+
+#: includes/shortcodes/btable2-sc-window.php:126
+msgid "Choose extra field to show (default is bonus)"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:29
+msgid "Enter Button Text"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:33
+msgid "Button URL"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:35
+msgid "Enter Button URL"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:39
+msgid "Size of Button"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:41
+msgid "Regular"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:42
+msgid "Small"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:43
+msgid "Medium"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:44
+msgid "Large"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:53
+msgid "None (Default)"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:54
+msgid "Down Arrow"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:55
+msgid "Info"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:56
+msgid "Error"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:57
+msgid "Check"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:58
+msgid "Warning"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:65
+msgid "Text Color"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:67
+msgid "Light"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:68
+msgid "Dark"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:78
+msgid "Normal"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:88
+msgid "Custom"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:96
+msgid "Custom Background Color"
+msgstr ""
+
+#: includes/shortcodes/buttons-sc-window.php:98
+msgid "Select or enter a custom background color for the button"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:29
+msgid "Number of Posts (5=Default)"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:34
+msgid "Filter by Category"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:36
+msgid "[None]"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:41
+msgid "You can choose to show posts within a certain category."
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:45
+msgid "Article Excerpts Display"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:47
+msgid "Vertical"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:48
+msgid "Horizontal"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:50
+msgid "Display articles vertical in columns or horizontal rows."
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:54
+msgid "Optional Read More Link"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:56
+msgid ""
+"Enter a link here to show a button after the articles that will link to more "
+"articles"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:60
+msgid "Read More Text"
+msgstr ""
+
+#: includes/shortcodes/excerpt-sc-window.php:62
+msgid "Enter the text for the read more button"
+msgstr ""
+
+#: includes/shortcodes/excerpt-shortcode.php:89
+msgid "Read More"
+msgstr ""
+
+#: includes/theme-options.php:6
+msgid "Branding Preferences"
+msgstr ""
+
+#: includes/theme-options.php:7
+msgid "Logo"
+msgstr ""
+
+#: includes/theme-options.php:7
+msgid ""
+"The logo for your site.  Recommended size is less than 300px wide and 100px "
+"in height."
+msgstr ""
+
+#: includes/theme-options.php:8
+msgid "Favicon URL"
+msgstr ""
+
+#: includes/theme-options.php:8
+msgid "Enter the full url for your custom favicon."
+msgstr ""
+
+#: includes/theme-options.php:9
+msgid "Login Logo"
+msgstr ""
+
+#: includes/theme-options.php:9
+msgid ""
+"The logo that is shown on the login page.  Recommended size less than 200px "
+"x 60px"
+msgstr ""
+
+#: includes/theme-options.php:10
+msgid "Login Logo URL"
+msgstr ""
+
+#: includes/theme-options.php:10
+msgid ""
+"The link url for the logo image.  Where the user goes when they click on the "
+"login logo."
+msgstr ""
+
+#: includes/theme-options.php:11
+msgid "Login Logo Title"
+msgstr ""
+
+#: includes/theme-options.php:11
+msgid "The alternative text for the logo on login page."
+msgstr ""
+
+#: includes/theme-options.php:15
+msgid "Header Preferences"
+msgstr ""
+
+#: includes/theme-options.php:16
+msgid "Header script"
+msgstr ""
+
+#: includes/theme-options.php:16
+msgid ""
+"Additional information to insert in the page header file like Google "
+"Analytics code"
+msgstr ""
+
+#: includes/theme-options.php:17
+msgid "Disable search"
+msgstr ""
+
+#: includes/theme-options.php:17
+msgid "Check to disable search icon in header"
+msgstr ""
+
+#: includes/theme-options.php:24
+msgid "General Options"
+msgstr ""
+
+#: includes/theme-options.php:26
+msgid "Theme Color"
+msgstr ""
+
+#: includes/theme-options.php:26
+msgid "Choose a preset theme design style other than default."
+msgstr ""
+
+#: includes/theme-options.php:27
+msgid "Review Page Slug"
+msgstr ""
+
+#: includes/theme-options.php:27
+msgid ""
+"The sportsbook review site slug, default is review.  Example - http://www."
+"yoursite.com/slug/casinoname/.  You will need to reset your permalinks by "
+"resaving them if you change this, otherwise you will see a 404 page."
+msgstr ""
+
+#: includes/theme-options.php:31
+msgid "Bylines"
+msgstr ""
+
+#: includes/theme-options.php:32
+msgid "Hide Entire Bylines"
+msgstr ""
+
+#: includes/theme-options.php:32
+msgid ""
+"Check to hide all bylines including post date, category, author and comments "
+"from all areas."
+msgstr ""
+
+#: includes/theme-options.php:33
+msgid "Hide Author"
+msgstr ""
+
+#: includes/theme-options.php:34
+msgid "Hide Date"
+msgstr ""
+
+#: includes/theme-options.php:35
+msgid "Hide Category"
+msgstr ""
+
+#: includes/theme-options.php:36
+msgid "Hide Comments Link"
+msgstr ""
+
+#: includes/theme-options.php:36
+msgid "Check to hide comments link and comments number in bylines."
+msgstr ""
+
+#: includes/theme-options.php:39
+msgid "Footer Options"
+msgstr ""
+
+#: includes/theme-options.php:40
+msgid "Footer script"
+msgstr ""
+
+#: includes/theme-options.php:41
+msgid "Hide Footer Widget Area (Where Applicable)"
+msgstr ""
+
+#: includes/theme-options.php:42
+msgid "Hide Footer Menu Area (Where Applicable)"
+msgstr ""
+
+#: includes/theme-options.php:43
+msgid "Hide Bottom Footer Area"
+msgstr ""
+
+#: includes/theme-options.php:44
+msgid "Hide theme credit"
+msgstr ""
+
+#: includes/theme-options.php:45
+msgid "Bottom Footer Text"
+msgstr ""
+
+#: includes/theme-options.php:45
+msgid ""
+"Enter text to replace the copyright, theme credit, and site link in the "
+"footer."
+msgstr ""
+
+#: includes/theme-options.php:48
+msgid "Word Replacement"
+msgstr ""
+
+#: includes/theme-options.php:49
+msgid "Replace Bet Now button text"
+msgstr ""
+
+#: includes/theme-options.php:49
+msgid ""
+"Enter the word to replace Bet Now button text in shortcodes and review page."
+msgstr ""
+
+#: includes/theme-options.php:50
+msgid "Replace Sportsbook table text"
+msgstr ""
+
+#: includes/theme-options.php:50
+msgid ""
+"Enter the word to replace Sportsbook text in shortcode comparison table."
+msgstr ""
+
+#: includes/theme-options.php:51
+msgid "Replace Features table text"
+msgstr ""
+
+#: includes/theme-options.php:51
+msgid "Enter the word to replace features text in shortcode comparison table."
+msgstr ""
+
+#: includes/theme-options.php:52
+msgid "Replace Bonus table text"
+msgstr ""
+
+#: includes/theme-options.php:52
+msgid "Enter the word to replace Bonus text in shortcode comparison table."
+msgstr ""
+
+#: includes/theme-options.php:53
+msgid "Replace Payout table text"
+msgstr ""
+
+#: includes/theme-options.php:53
+msgid "Enter the word to replace Payout text in shortcode comparison table."
+msgstr ""
+
+#: includes/theme-options.php:54
+msgid "Replace Rating table text"
+msgstr ""
+
+#: includes/theme-options.php:54
+msgid "Enter the word to replace Rating text in shortcode comparison table."
+msgstr ""
+
+#: includes/theme-options.php:59
+msgid "Link Redirect Options"
+msgstr ""
+
+#: includes/theme-options.php:59
+msgid "Check to have affiliate redirect links open in new windows when clicked"
+msgstr ""
+
+#: includes/theme-options.php:60
+msgid "Outbound Redirect Slug"
+msgstr ""
+
+#: includes/theme-options.php:60
+msgid "Enter the outbound affiliate slug to replace visit, use one word"
+msgstr ""
+
+#: includes/theme-options.php:61
+msgid "Outbound Ad Redirect Slug"
+msgstr ""
+
+#: includes/theme-options.php:61
+msgid "Enter the outbound affiliate slug to replace outgoing, use one word"
+msgstr ""
+
+#: includes/theme-options.php:65
+msgid "Excerpts"
+msgstr ""
+
+#: includes/theme-options.php:66
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/theme-options.php:76 includes/theme-options.php:148
+msgid "Theme Options"
+msgstr ""
+
+#: includes/theme-options.php:152
+msgid "Update the different options of the themes here."
+msgstr ""
+
+#: includes/theme-setup.php:67
+msgid "Description"
+msgstr ""
+
+#: includes/theme-setup.php:68
+msgid "Bonus Info"
+msgstr ""
+
+#: includes/theme-setup.php:70
+msgid "Affiliate URL"
+msgstr ""
+
+#: includes/theme-setup.php:71
+msgid "Post Date"
+msgstr ""
+
+#: includes/theme-setup.php:108
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/theme-setup.php:110
+msgid "Main Sidebar Area"
+msgstr ""
+
+#: includes/theme-setup.php:121
+msgid "Footer Widget 1"
+msgstr ""
+
+#: includes/theme-setup.php:123
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: includes/theme-setup.php:132
+msgid "Footer Widget 2"
+msgstr ""
+
+#: includes/theme-setup.php:134
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: includes/theme-setup.php:143
+msgid "Footer Widget 3"
+msgstr ""
+
+#: includes/theme-setup.php:145
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: includes/theme-setup.php:154
+msgid "Footer Widget 4"
+msgstr ""
+
+#: includes/theme-setup.php:156
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: includes/theme-setup.php:165
+msgid "Bottom Right Footer"
+msgstr ""
+
+#: includes/theme-setup.php:168
+msgid "Footer Social Media Widget Area"
+msgstr ""
+
+#: includes/theme-setup.php:178
+msgid "Header Widgets"
+msgstr ""
+
+#: includes/theme-setup.php:180
+msgid "Top Right Header Widget Area"
+msgstr ""
+
+#: includes/theme-setup.php:211
+msgid "Primary Navigation"
+msgstr ""
+
+#: includes/theme-setup.php:212
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/theme-setup.php:218
+msgid "Please Set Up Your Menu"
+msgstr ""
+
+#: includes/theme-setup.php:337
+msgid "previous"
+msgstr ""
+
+#: includes/theme-setup.php:347
+msgid "next"
+msgstr ""
+
+#: includes/widgets/smedia_widget.php:15
+msgid "Social Media Icons"
+msgstr ""
+
+#: includes/widgets/smedia_widget.php:16
+msgid "Add social media icons to a widget area."
+msgstr ""
+
+#: includes/widgets/smedia_widget.php:134
+msgid ""
+"Enter the url for your social social media pages below that you would like "
+"to display in the widget below.  Leave blank to hide icon."
+msgstr ""
+
+#: includes/widgets/smedia_widget.php:138
+#: includes/widgets/smedia_widget.php:143
+#: includes/widgets/smedia_widget.php:148
+#: includes/widgets/smedia_widget.php:153
+#: includes/widgets/smedia_widget.php:158
+#: includes/widgets/smedia_widget.php:163
+#: includes/widgets/smedia_widget.php:168
+#: includes/widgets/smedia_widget.php:173
+#: includes/widgets/smedia_widget.php:178
+#: includes/widgets/smedia_widget.php:183
+#: includes/widgets/smedia_widget.php:188
+msgid "Page URL"
+msgstr ""
+
+#: includes/widgets/smedia_widget.php:194
+msgid "Widget Display Variation"
+msgstr ""
+
+#: includes/widgets/smedia_widget.php:205
+msgid "Check to open links in new window."
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:16
+msgid "Recommended Sportsbooks Widget"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:17
+msgid "Display top sportsbooks."
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:259
+msgid "Select Casino 1"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:270
+msgid "Select Casino 2"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:282
+msgid "Select Casino 3"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:294
+msgid "Select Casino 4"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:305
+msgid "Select Casino 5"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:316
+msgid "Select Casino 6"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:327
+msgid "Select Casino 7"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:338
+msgid "Select Casino 8"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:349
+msgid "Select Casino 9"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:360
+msgid "Select Casino 10"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:371
+msgid "Select Casino 11"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:382
+msgid "Select Casino 12"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:393
+msgid "Select Casino 13"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:404
+msgid "Select Casino 14"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:415
+msgid "Select Casino 15"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:426
+msgid "Select Casino 16"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:437
+msgid "Select Casino 17"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:448
+msgid "Select Casino 18"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:459
+msgid "Select Casino 19"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:470
+msgid "Select Casino 20"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:482
+msgid "Widget Output Display Variation"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:484
+msgid "Version 1"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:485
+msgid "Version 2"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:490
+msgid "Link to Review Page Instead of Casino Directly"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:491
+msgid "Check to link widget to review page instead of outbound casino."
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:495
+msgid "Choose Which Field to Display"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:498
+msgid "Bonus Text"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:499
+msgid "Editor Rating"
+msgstr ""
+
+#: includes/widgets/topsites_widget.php:504
+msgid "Optional Button Text to Replace Bet Now"
+msgstr ""
+
+#: search.php:12
+msgid "Search Result For"
+msgstr ""
+
+#: search.php:31
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: single.php:24
+msgid "Tagged With"
+msgstr ""

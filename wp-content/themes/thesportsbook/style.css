@@ -1,0 +1,2194 @@
+/*
+Theme Name: The Sportsbook Affiliate Theme
+Theme URI: https://www.flytonic.com/product/sportsbook-theme/
+Description: Sports betting and all in one casino affiliate theme for WordPress!
+Author: Flytonic Themes
+Author URI: http://www.flytonic.com/
+Version: 1.30
+Tags: flytonic, responsive, poker, casino, affiliate, sportsbook
+
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/* Table of Contents
+
+	1. HTML Reset
+	
+	2. Defaults
+		- Typography
+		- Headings
+		- Other Objects
+	3. Site Layout and Structure
+	4. Common Classes
+		-Newsletter
+		-Comments
+	5. Header
+		-Site Header
+		-Navigation
+	6. Content Area
+		-Shortcodes
+		-Review Page
+	7. Sidebar
+		-Widgets
+	8. Footer
+	9. Media Queries
+	
+*/
+
+/* 1. HTML Reset
+ 
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:0}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+
+/* 2. Defaults
+   ----------------------------------------------------------------------------*/
+
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background: #e5e5e5;
+	color: #555;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #0A53B3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999;
+	
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 20px 0;
+	padding:0;
+}
+
+span.hilite {
+	color: #136BA2;
+}
+
+a.graylink2 {
+	color:#cc0000;
+	padding:10px 5px;
+	background:#f3f3f3;
+	display:block;
+	font-weight:bold;
+	border-radius-topleft:5px;
+	border-radius-bottomleft:5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+a.graylink2:hover {
+	color:#222;
+}
+
+.clearboth {clear:both;}
+
+hr {
+  border:0;
+	box-shadow:0px 8px 11px -4px #d5d5d5;
+	-webkit-box-shadow: 0px 8px 11px -4px #d5d5d5;
+	clear:both;
+	height:10px;
+	border-bottom:1px solid #eee;
+	margin-bottom:30px;
+}
+
+a.revlink {
+	text-decoration:underline;
+	display:block;
+	text-align:center;
+	padding-top:5px;
+	color:#666;
+}
+
+a.revlink:hover {
+	text-decoration:none;
+	color:#666;
+}
+
+
+/* Headings
+   -----------------------------------------*/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1b1b1b;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	line-height: 1.1;
+	margin: 0 0 20px;
+}
+
+h1 {
+	font-size:32px;
+	padding:0 0 8px;
+	border-bottom:4px solid #d0d6d8; 
+}
+
+h2 {
+	font-size:24px;
+	padding:0 0 8px;
+	border-bottom:3px solid #d0d6d8; 
+}
+
+h3 {
+	font-size:1.5em;
+}
+
+h4 {
+	font-size:1.4em;
+}
+
+h5 {
+	font-size:1.2em;
+}
+
+h6 {
+	font-size:1.1em;
+	font-weight:normal;
+}
+
+h1.heading,
+h2.heading {
+	background:#3b3b3b;
+	padding:8px 12px;
+	color:#fff;
+	border:0;
+}
+
+
+/* 3. Site Layout and Structure
+   ----------------------------------------------------------------------------*/
+
+.outside {
+	width:100%;
+	margin:0 auto;
+}
+
+.wrap {
+	width:1100px;
+	margin:0 auto;
+}
+
+
+/* 4. Common Classes
+   ----------------------------------------------------------------------------*/
+   
+    /* Flytonic Buttons */
+a.visbutton {
+    background:#14c51c; /* for non-css3 browsers */
+ 	color:#fff !important;
+ 	line-height:1em;
+	border-radius:5px;
+	-moz-border-radius:5px;
+ 	padding:12px 12px;
+ 	text-align: center;
+	text-decoration: none !important;
+	background-image: -moz-linear-gradient(top, #14c51c 40%, #0ca534 100%);
+	background-image: -webkit-linear-gradient(top, #14c51c 40%, #0ca534 100%);
+	display: inline-block;
+	margin:0 .3em 0 .3em;
+	text-transform:uppercase;
+	font-weight:400 !important;
+	font-size:16px !important;
+	font-family: 'Oswald', sans-serif !important;
+}
+
+a.visbutton.gray {
+	background:#d6d6d6; /* for non-css3 browsers */
+	border-color: #9e9e9e;
+	background-image: -moz-linear-gradient(top, #f9f7f7 50%, #d6d6d6 90%);
+	background-image: -webkit-linear-gradient(top, #f9f7f7 50%, #d6d6d6 90%);
+	color:#555 !important;
+}  
+   
+a.visbutton.size1 {
+	padding:10px 0;
+	width:90px;
+}
+
+a.visbutton.size2 {
+	width:160px;
+	padding:12px 0;
+	font-size:20px !important;
+}
+
+a.visbutton.lg {
+	display: block;
+	padding:14px 0;
+	font-size:20px !important;
+	width:200px;
+}
+
+a.visbutton.mb {
+	margin:0 0 8px 0;
+} 
+
+a.visbutton.cent {
+	margin:16px auto 10px auto;
+	text-align:center;
+	display:block;
+} 
+
+a.visbutton:hover, 
+a.visbutton:active, 
+a.visbutton:visited {
+	opacity: 0.85; 
+	box-shadow:none;
+} 
+
+ /* Rating Stars */
+   
+span.rate { 
+	display:block;
+	height:20px;
+	width:114px;
+	background:url(images/icons.png) -1px -25px;
+}
+
+span.ratetotal {
+	display:block;
+	height:20px;
+	width:114px;
+	background:url(images/icons.png) -1px -2px;
+}   
+   
+span.rate.cen {
+	margin:0 auto;
+}
+
+span.rate.mbottom {
+	margin-bottom:15px;
+}
+
+/* News and Bylines */
+
+ /* Excerpts */
+
+.newslist{ 
+	line-height:1.5em; 
+	overflow:hidden; 
+	margin:0 -10px;
+}
+
+.news{
+	width: 30.33333%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 1.5% 25px;
+	padding:12px;
+	border: 1px solid #eee;
+	background: #fdfdfd;
+	box-shadow: 0px 1px 6px -3px #c2c2c2;
+}
+
+.news:hover{
+	background: #f4f4f4;
+}
+
+ .news p{
+	margin:0; 
+	padding:0;
+	line-height:1.5em; 
+	font-size:13px;
+}
+
+ .news figure{
+	height:160px;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+
+ .news figure img{ 
+	 width:100%;
+	 height:auto;
+}
+
+.news:hover img{
+	opacity:.85;
+	filter: alpha(opacity=85);
+}
+
+ .news h4{ 
+	margin:0 0 5px 0; 
+	font-size: 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+	min-height:35px;
+}
+
+ .news h4 a{ 
+	color: #333;
+ }
+
+ .news .bylines{ 
+	font-size:13px;
+	 margin:0 0 15px; 
+	 color:#777;
+}
+
+ /* Other Common Classes */
+
+
+.bylines{ 
+	font-size:13px; 
+	margin-bottom:20px; 
+	color:#777;
+}
+
+.bylines a {
+	color:#888;
+}
+
+.bylines a:hover {
+	text-decoration:underline;
+}
+
+.bylines time{
+	position:relative;
+	padding:0 0 0 20px
+}
+
+.bylines time::before,
+.bylines span.author::before,
+.bylines span.bl-comments::before,
+.bylines span.bl-category::before{
+	color: #aaa;
+	font-size: 14px;
+	font-family: 'FontAwesome';
+	content: '\f073';
+	position: absolute;
+	left: 0;
+	top: -4px;
+}
+
+.bylines span.author{
+	position:relative;
+	padding:0 0 0 26px
+}
+
+.bylines span.author::before{
+	content: '\f007';
+	left: 10px;
+}
+
+.bl-category,.bl-comments{
+	position:relative;
+	padding:0 0 0 29px;
+}
+
+.bylines span.bl-comments::before {
+	content: '\f075';
+	left: 10px;
+}
+
+.bylines span.bl-category::before {
+	content: '\f07b';
+	left: 10px;
+	top:-4px;
+}
+
+.news .bylines time {
+    position: relative;
+    padding: 0;
+}
+
+.news .bylines time::before {
+	display:none;
+}
+
+.newslist.horizontal {
+	margin:0;
+}
+
+.newslist.horizontal .news{
+	width: auto;
+	display: block;
+	margin:0 0 25px;
+	padding: 0 0 25px;
+	border: 0;
+	border-bottom:1px solid #ddd;
+	overflow: hidden;
+	background: none;
+	outline: none;
+}
+	
+.newslist.horizontal .news figure{
+	width:300px;
+	margin:0 40px 0 0;
+	float:left;
+	height:200px;
+}
+
+.newslist.horizontal .news figure img{ 
+	 width:100%;
+	 height:auto;
+	 display:block
+}
+
+.newslist.horizontal .news p{
+	font-size:15px;
+}
+
+.newslist.horizontal .news h4{ 
+	font-size: 17px;
+	margin-bottom:10px;
+	min-height:auto;
+}
+
+.newslist.horizontal .news .bylines{
+	margin-bottom:10px;
+	font-size: 12px;
+}
+
+.newslist.horizontal .news .bylines time {
+    position: relative;
+    padding: 0 0 0 21px;;
+}
+
+.newslist.horizontal .news .bylines time::before {
+	display:block;
+}
+
+blockquote {
+	padding:8px 8px 8px 16px;
+	background:#e9e9e9; 
+	border-left:4px solid #d5d5d5;
+	font-style:italic;
+	color:#777;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb{ 
+	margin:0 0 0 0; 
+	font-size:10px; 
+	padding:8px 12px; 
+	border-top:1px solid #EEE; 
+	border-bottom:1px solid #EEE; 
+	color:#666; 
+	font-weight:bold;
+}
+
+.current_crumb {
+	font-weight:normal;
+}
+
+
+/* Images */
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft {
+	margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 10px 5px 0;
+}
+
+img.alignright {
+	margin: 5px 0 5px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 5px 10px;
+}
+
+img.aligncenter {
+	margin: 5px auto;
+}
+
+img.alignnone {
+	margin: 5px 0;
+}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+	color: #220e10;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+img.wp-smiley,
+.rsswidget img {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.wp-caption.alignleft + ul,
+.wp-caption.alignleft + ol  {
+	list-style-position: inside;
+}
+
+.main-content img[class*="align"],
+img[class*="wp-image-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+.main-content img  {
+	max-width: 100%;
+
+}
+
+
+/* Search */
+
+.topsearchform,
+#searchform { 
+	margin:0; 
+	overflow:hidden; 
+	background:#1d1d1d; 
+	width:160px;
+	border-radius:3px;
+	-moz-border-raduis:3px;
+}
+
+#searchform {
+	margin-bottom:20px;
+}
+
+.topsearchinput, 
+.searchinput {
+	width:130px; 
+	height:25px; 
+	color:#777; 
+	font-size:1.2em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	background:#1d1d1d; 
+	border:0;
+	padding:0 5px 0 10px; 
+	float:left;  
+}
+
+.topsearchsubmit,.searchsubmit {
+	height:22px;  
+	width:22px; 
+	border:none; 
+	display:block; 
+	margin:4px 0 0 0;
+	background:url(images/searchgo.png) no-repeat; 
+	float:left;  
+}	
+				   
+.topsearchsubmit:hover,#searchsubmit:hover { 
+	background:url(images/searchgo_h.png) no-repeat; 
+	cursor:pointer;
+}
+
+/* Pagination */
+
+.pagination {
+	clear:both;
+	padding:30px 0;
+	line-height:13px; 
+	margin:0 0 15px 0;
+}
+
+.pagination span, 
+.pagination a { 
+	display:block;
+	float:left;
+	margin: 2px 7px 2px 0;
+	padding:9px 9px 9px 9px;
+	text-decoration:none;
+	width:auto;
+	color:#0A53B3;
+	background: #fff; 
+	text-decoration:none; 
+	border-radius:4px; 
+	-moz-border-radius:4px;
+}
+
+.pagination a:hover {
+	color:#fff;
+	background: #0A53B3;
+}
+
+.pagination .current {
+	padding:9px 9px 9px 9px;
+	background: #0A53B3;
+	color:#fff; 
+}
+
+.pagination a.last { 
+	background:#999; 
+	color:#FFF;
+}
+
+.pagination a.last:hover { 
+	background:#333; color:#FFF;
+}
+
+.main-content .bannerAd { 
+	padding:15px 0;
+}
+
+
+/******************* Flytonic Comments ****************************************/
+
+#comments { padding-top:50px; }
+#respond{padding:15px 15px 15px 15px; background:#f8f8f8; }	 
+#respond:after { content: ".";  display: block; height: 0; clear: both; visibility: hidden;	}
+#commentform {padding:10px 0 0 0; margin:0;}
+#commentform input, #commentform textarea, #commentform .rateinput {width: 200px; padding: 5px; margin:0;	border:2px solid #DDD; color:#888; display:block; font-size:11px; }
+#commentform textarea {	width: 95%;	}
+#commentform label { color:#555; font-weight:bold; font-size:11px; }	
+#commentform label span { font-weight:normal; color:#777;}
+ol.commentlist {border-top:solid 1px #ddd; margin:0 0 35px 0 !important; padding:0 !important;}
+ol.commentlist li {position:relative !important;;min-height:50px !important;; padding: 10px 10px 10px 82px!important;list-style: none !important; border-bottom:1px solid #ddd !important;;	}
+ol.commentlist li .avatar{padding:4px;text-align:center;background:#fff;border:solid 1px #ccc;position:absolute;left:10px;top:10px;}
+ol.commentlist li span.avatar img{margin:5px;}
+ol.commentlist ul.children{margin:10px 0 0 0 !important;border-top:solid 1px #ddd; padding:0;}
+ol.commentlist .thread-odd{background:#f8f8f8;}
+ol.commentlist .thread-even .even{background:#fff;}
+ol.commentlist .thread-even .odd{background:#f8f8f8}
+ol.commentlist .thread-odd .odd{background:#fff;}
+ol.commentlist .thread-odd .even{background:#f8f8f8}
+.bypostauthor { border-top:2px solid #0A53B3; }
+ol.commentlist .bypostauthor  span.avatar { border:solid 2px #0A53B3;}
+.nocomments {text-align: center; margin: 0; padding: 0;	}
+div.comment-author { font-size:1.1em; line-height:1em;  }
+b.fn {font-weight:normal;}
+span.says { display:none;}
+div.comment-metadata{ font-size:.8em; margin-bottom:10px;color:#888;}
+div.comment-metadata a, div.comment-metadata a:visited {color:#888;}
+div.comment-metadata a:hover {color:#000;}
+.reply {text-align:right;}
+
+/** Comment Buttons **/
+
+div.reply a.comment-reply-link, div.reply a.comment-reply-link:visited { 
+	background:#0A53B3; 
+	color:#fff; 
+	padding:4px; 
+	font-size:.8em; 
+	font-family:Arial, Helvetica, sans-serif; 
+}
+
+div.reply a.comment-reply-link:hover {
+	background:#999; 
+	color:#fff; 
+}
+
+#commentform #submit { 
+	background:#0A53B3; 
+	color:#fff; 
+	border:0; 
+	padding:8px;  
+	text-align:center; 
+	display:block;  
+	width:100px; 
+	font-size:12px; 
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;  
+}
+
+#commentform #submit:hover { 
+	background:#999;
+	cursor:pointer; 
+}
+
+
+/* 5. Header
+   ----------------------------------------------------------------------------*/
+
+header.main-header  { 
+	padding:20px 0 0 0; 
+	overflow:hidden;  
+	margin-bottom:15px;
+	background: #fff;
+}
+
+.header-logo { 
+	float:left;  
+	padding:0 20px 20px 0;
+	}
+	
+	.header-logo h3 { 
+		line-height:1.1em; 
+		font-size:2.4em; 
+		margin:0; 
+		color:#111; 
+		background:0;
+		border:0;
+		color:#fff;
+	}
+	.header-logo a { 
+		color:#222;
+	}
+	
+	.header-logo a:hover { 
+		color:#444;
+	}
+	
+.headerwidgets {
+	overflow:hidden;
+	margin-bottom:10px;
+	}
+	
+	.widgettop {
+	float:right;
+	padding:5px 5px;
+	}
+
+.headerwidgets .bannerwidget {
+	float:right;
+	padding:5px 5px;
+}
+
+
+/* Navigation
+   ------------------------------*/
+
+.searchgo {
+	width:160px;
+	margin:0 10px;
+	padding:7px 0 0 0;
+	float:right;
+}
+
+nav.navbar {
+	clear:both;
+	color:#000; 
+	border-bottom:3px solid #e64c10; 
+	background:#3b3b3b;
+} 
+
+.nav {
+	display: block; 
+	height:40px; 
+	width:100%; 
+	margin:0; 
+}
+
+.nav,
+.nav ul {
+	line-height: 28px; 
+	margin:0; 
+	padding:0; 
+	list-style: none;
+ }
+
+.nav li {
+	float: left;
+ 	font-size:1.4em; 
+	text-transform:uppercase;
+	font-family: 'Oswald', sans-serif;
+ }
+
+.nav li a,
+.nav li a:visited {
+	display:block;
+ 	padding:6px 12px 6px 12px;
+	color:#fff;
+}
+
+.nav li a:hover, 
+.nav li a:active {
+	background:#e64c10;
+}	
+
+.nav li ul {
+	position: absolute; 
+	left: -999em; 
+	width:160px; 
+	margin:0; 
+	line-height: 18px;
+ 	margin-left:-1px; 
+	z-index:10;
+	background:#fff;
+	border:1px solid #e5e5e5; 
+	border-top:0;
+}
+
+.nav li li { 
+	width: 158px; 
+	margin:0; 
+ 	font-size:1em;
+	text-transform:none;
+	border-bottom:1px solid #eee;
+}
+
+.nav li li:last-child {
+	border:0;
+}
+
+.nav li li a,
+.nav li li a:visited {
+	color:#444; 
+}
+
+.nav li li a:hover, 
+.nav li li a:active {
+	background:#f5f5f5;
+}
+
+.nav li:hover ul, 
+.nav li li:hover ul, 
+.nav li li li:hover ul, 
+.nav li.sfhover ul, 
+.nav li li.sfhover ul, 
+.nav li li li.sfhover ul {
+	left: auto;
+}
+
+.nav li li ul,  
+.nav li.current-menu-item li ul, 
+.nav li.current-menu-parent li ul { 
+	margin: -33px 0 0 160px; 	
+	visibility:hidden; 
+	font-size:1.1em;
+}
+
+.nav li li:hover ul { 
+	visibility:visible;
+}
+
+.nav li.current-menu-item, 
+.nav li.current-menu-parent {
+	background:#e64c10;
+}
+
+.nav li li ul,  
+.nav li.current-menu-item li ul, 
+.nav li.current-menu-parent li ul { 
+	margin: -31px 0 0 160px; 
+ 	visibility:hidden; 
+	font-size:1.1em;
+}
+
+.nav li li:hover ul {
+	visibility:visible;
+}
+
+#mobile-menu-btn{
+	display: none;  
+	position: absolute;  
+	right: 15px;  
+	top:15px;  
+	z-index:100;   
+	padding: 0 3px;
+}
+
+#mobile-menu{
+display: none;
+}
+
+#mobile-menu .menu-item-has-children .arrow {	
+display: none;
+}
+
+
+/* 6. Content Area
+   ----------------------------------------------------------------------------*/
+
+.container {
+	overflow:hidden;
+}
+
+.main-content {
+	padding:30px 40px;
+	background:#fff;
+	font-size:1.5em;
+	line-height: 1.6em;
+}
+
+.main-content.showsidebar {
+	float:left;
+	width:800px;
+	padding:30px;
+}
+
+.main-content ul, 
+.main-content ol { 
+	padding: 0 0 20px 26px; 
+	margin:0;
+}
+
+.main-content ul li, .main-content ol li { 
+	line-height:1.5em;
+	padding: 0 0 0 5px;
+	text-indent:-1px;
+	margin:0 0 12px;
+	list-style:outside;
+}
+
+.main-content ol li { 
+	list-style:decimal outside;
+}
+
+.main-content ul li:last-child,
+.main-content ol li:last-child {
+	margin-bottom:none;
+}
+
+/**Slider **/
+
+.top-slider {
+	display: block;
+	overflow: hidden;
+	background:#000;
+	margin-bottom:10px;
+}
+
+.top-slider .slides, .top-slider ul, .top-slider ul.slides {
+	padding: 0;
+	margin: 0;
+}
+
+.top-slider ul li, .slides li{
+	text-indent: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.slide-item{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	height:325px;
+}
+
+.slide-item img{
+	min-height:325px;
+}
+
+.slide-content {
+	 position:absolute;
+	 top:50px;
+	 left:0;
+	 text-align:center;
+	 right:0;
+	 margin:0 auto;
+	 width:600px;
+	 background-color:rgba(0, 0, 0, 0.7);
+	 padding:20px;
+	 border-radius:10px;
+	 -moz-border-radius:10px;
+	 font-size:16px;
+	 color:#fff;
+}
+
+.slide-content h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+	color:#fff;
+	border:0;
+}
+
+.slide-content p{
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	color:#fff;
+	font-size:16px;
+}
+
+.top-slider .flex-control-nav{
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	text-align: right;
+	margin: 0;
+	padding: 0 20px;
+}
+
+.top-slider .flex-control-nav li{
+	margin-left: 5px;
+}
+
+.top-slider .flex-control-nav a{
+	font-size: 0;
+}
+
+
+/* In Post Shortcode Table */
+
+.top-sites-wrap {
+	margin-bottom:30px;
+}
+
+.top-sites-heading { 
+	padding:10px;
+	background:#272727; 
+	color:#fff; 
+	font-weight:normal;
+	text-transform:uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom:10px;
+}
+
+.top-sites-row div {
+	padding:0 8px;
+	line-height:1.3em;
+	text-align:center;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.top-sites-body {
+	border-bottom: 1px solid #c9c9c9;
+	margin-bottom:5px;
+	position: relative;
+}
+
+.top-sites-row.top-sites-body div {
+	padding:10px 8px
+}
+
+.top-sites-row .featcol {
+	width:23%;
+}
+
+.top-sites-row .casinocol {
+	width:21%;
+}
+
+.top-sites-row .depcol {
+	width:20%;
+}
+
+.top-sites-row .ratecol {
+	width:20%;
+}
+
+.top-sites-row .visitcol {
+	width:16%;
+}
+
+.top-sites-body .depcol{ 
+	font-size:1.3em;
+}
+
+.top-sites-body ul {
+	padding:0 20px;
+	margin:0 0 12px 0;
+}
+
+.top-sites-body ul li {
+	list-style:none;
+	display: list-item;
+	border:0;
+	width:100%;
+	margin:0 0 8px;
+	padding:0 0 0 22px;
+	line-height:1.2em;
+	font-size:13px;
+	background:none;
+	text-align:left;
+	position:relative;
+}
+
+.top-sites-body ul li::before {
+	content:'';
+	position:absolute;
+	width:16px;
+	height:16px;
+	background: url(images/icons.png) -3px -48px;
+	left:0; 
+	top:0;
+}
+
+.top-sites-body span.rankcir {
+	position:absolute;
+	top:-2px;
+	left:0px;
+	width:45px;
+	height:36px;
+	color:#fff;
+	font-weight:bold; 
+	font-size:15px;
+	line-height:36px;
+	background: url(images/icons.png) -78px -48px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.top-sites-body .casinocol {
+	position:relative;
+}
+
+.top-sites-body .casinocol img {
+	max-width:100%;
+	height:auto;
+}
+
+.top-sites-body.row-1  {
+	border: 2px solid #0ed520;
+}
+
+.top-sites-body.row-1 span.rankcir {
+	background: url(images/icons.png) -26px -48px;
+}
+
+.top-sites-row .visitcol a.visbutton {
+	display:block;
+	width:95%;
+	margin:0 auto 10px;
+	padding:12px 5px;
+	font-size:16px !important;
+}
+
+
+/* In Post Shortcode 2 */
+
+ul.top-sportsbook-cards { 
+	padding:0; 
+	margin: 0 0 30px; 
+}
+
+ul.top-sportsbook-cards li {
+	display:inline-block; 
+	list-style:none;
+	background:0;
+	margin:0 1%;
+	width:31.33%;
+	border: 2px solid #e2e2e2;
+	padding:20px 0;
+	vertical-align:top;
+	position:relative;
+}
+
+ul.top-sportsbook-cards span.rank {
+	position:absolute;
+	top:-2px;
+	left:-2px;
+	width:45px;
+	height:36px;
+	color:#fff;
+	font-weight:bold; 
+	font-size:15px;
+	line-height:36px;
+	background: url(images/icons.png) -78px -48px;
+	padding-left: 15px;
+}
+
+ul.top-sportsbook-cards li:first-child span.rank {
+	background: url(images/icons.png) -26px -48px;
+}
+
+ul.top-sportsbook-cards > li:first-child {
+	border: 2px solid #0ed520;
+}
+
+ul.top-sportsbook-cards img.logocomp { 
+	display:block;
+	height:auto;
+	max-width:95%;
+	margin: 0 auto 15px;
+}
+
+ul.top-sportsbook-cards span.bonus-text {
+	display:block;
+	text-align:center;
+	margin:0 auto 15px;
+	background:#eef7fc;
+	padding:20px 5px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+ul.top-sportsbook-cards ul {
+	padding:0 20px;
+	margin:0 0 12px 0;
+}
+
+ul.top-sportsbook-cards ul li {
+	list-style:none;
+	display: list-item;
+	border:0;
+	width:100%;
+	margin:0 0 8px;
+	padding:0 0 0 22px;
+	line-height:1.2em;
+	position:relative;
+	font-size:13px;
+}
+
+ul.top-sportsbook-cards a.revlink.tc {
+	padding:0 0 15px;
+}
+
+ul.top-sportsbook-cards ul li::before {
+	content:'';
+	position:absolute;
+	width:16px;
+	height:16px;
+	background: url(images/icons.png) -3px -48px;
+	left:0; 
+	top:0;
+}
+
+ul.top-sportsbook-cards a.visbutton {
+	display:block;
+	width:90%;
+	margin:0 auto 10px;
+	padding:16px 5px;
+	font-size:18px !important;
+}
+
+ul.top-sportsbook-cards a.rev-link {
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+/* Review Page Template */
+
+.summary {
+	background:#eee;
+	border-collapse: collapse; 
+	border-spacing: 0;
+	border:1px solid #fff;
+	font-size:12px;
+	width:100%;
+
+}
+
+.summary th { 
+	text-align:left;
+	border-bottom:1px solid #fff;
+	width:42%;
+	padding:5px 5px 5px 15px;
+	vertical-align:top;
+	line-height:1.2em;
+}
+
+.summary td {
+	border-bottom:1px solid #fff;
+	width:58%;
+	padding:5px 5px 5px 0;
+	line-height:1.2em;
+	vertical-align:top;
+}
+
+.sb-review {
+	padding: 0 20px; 
+	margin-bottom:30px;
+	overflow:hidden;
+	background:#ddd url(images/review-bg.jpg) no-repeat;
+	background-size:cover;
+	border:5px solid #999;
+}
+
+.sb-review .col1 {
+	float:left;
+	width:23%;
+	padding:20px 0;
+}
+
+.sb-review .col1 img {
+	margin:0 auto 15px;
+	display:block;
+}
+
+.sb-review .col2 {
+	float:left;
+	width:31%;
+	padding:20px 35px;
+}
+
+.sb-review .col3 {
+	float:right;
+	width:46%;
+	padding:20px 0 0;
+}
+
+.sb-review .col3  figure {
+	overflow:hidden;
+	width:100%;
+	height:300px;
+	margin:0;
+}
+
+.sb-review .col3 img {
+	display:block;
+	width:100%;
+	height:auto;
+	min-height: 300px;
+}
+
+.sb-rating-area {
+  display:block; 
+  overflow:hidden;
+  margin: 0 auto 10px;
+  width: 190px;
+}
+
+.sb-rating-area .ratevalue { 
+	float:left;
+	display:block; 
+	margin-left:10px;
+}
+
+.sb-rating-area .rate {
+	float:left;
+}
+
+.bonus-text {
+	font-weight:bold;
+	font-size:24px;
+	display:block;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.sb-review  a.visbutton {
+	display:block;
+	margin:0 auto;
+	padding:16px 5px;
+	font-size:18px !important;
+}
+
+.sb-review ul {
+	padding:0;
+	margin:0 0 12px 0;
+}
+
+.sb-review ul li {
+	list-style:none;
+	display: list-item;
+	border:0;
+	width:100%;
+	margin:0 0 14px;
+	padding:0 0 0 22px;
+	line-height:1.4em;
+	position:relative;
+	font-size:13px;
+	background:none;
+}
+
+.sb-review ul li::before {
+	content:'';
+	position:absolute;
+	width:16px;
+	height:16px;
+	background: url(images/icons.png) -3px -48px;
+	left:0; 
+	top:0;
+}
+
+/* 7. Sidebar
+   ----------------------------------------------------------------------------*/
+
+
+.sidebar { 
+	float:left;
+	padding:20px;
+	background:#f3f3f3;
+	width:300px;
+	font-size:1.2em;
+}
+
+.sidebar h3 {
+	font-size:16px;
+	padding:0 0 8px;
+	border-bottom:3px solid #d0d6d8; 
+}
+
+.sidebar h3.style2 {
+	background:#3b3b3b;
+	color: #fff;
+	border:0;
+	padding:8px 12px;
+}
+
+.sidebar h4 {
+    font-size: 1.1em;
+    background: none repeat scroll 0px center transparent;
+    margin-bottom: 12px;
+    color: #666;
+    padding: 5px 0px 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #D5D5D5;
+    text-align: center;
+}
+
+.sidebar ul {
+	padding: 0 0 20px 0;  
+}
+
+.sidebar li {
+	font-size:1.1em;
+	line-height:1.2em;
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+	list-style:none;
+	border-bottom: 2px dotted #c9c9c9;
+}
+
+.sidebar li a, 
+.sidebar li a:visited { 
+	color:#555;
+	text-decoration:none;
+}
+
+.sidebar li a:hover { 
+	color:#555;
+	text-decoration:underline;
+}
+
+.sidebar ol {
+	margin: 0;  
+	padding: 5px 0px 15px 25px;  
+}
+
+.sidebar ol li { 
+	list-style:decimal outside; 
+	margin: 0px 0px 10px 0px;
+}
+
+.sidebar ol li:last-child {
+	margin:0;
+}
+
+.sidebar .bannerwidget { 
+	display: block; 
+	margin:0 auto 25px auto; 
+	float:none; 
+	text-align:center; 
+}
+
+.textwidget,
+.tagcloud, .sidebar .widget {
+	margin-bottom:25px;
+}
+
+/* Calendar Widget */
+
+
+#wp-calendar {
+	margin:0 auto;
+
+}
+
+#wp-calendar caption {
+	font-size: 14px;
+	margin: 0;
+}
+
+#wp-calendar th,
+#wp-calendar td {
+	padding: 5px;
+	text-align: center;
+}
+
+/* Top Sites Sidebar Widget */
+
+.topsiteswidget-row {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+
+.topsiteswidget-row figure {
+    float: left;
+    width: 44%;
+}
+
+.topsiteswidget-row img {
+    max-width: 250px;
+	width:100%;
+    height: auto;
+	display:block;
+}
+
+.topsiteswidget-row h5 {
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.topsiteswidget-row .topsiteswidget-content {
+    width: 52%;
+    float: right;
+}
+
+.topsiteswidget-row h5 a {
+    color: #555;
+}
+
+.topsiteswidget-name {
+	width:55%;
+	 float: left;
+}
+
+.topsiteswidget-row span.bonusamount {
+	font-weight: Bold;
+	font-size: 13px;
+}
+
+.topsiteswidget-bet {
+	width:45%;
+	padding-left:15px;
+	 float: right;
+}
+
+.topsiteswidget-bet a.visbutton {
+	display:block;
+	margin:0;
+	padding:14px 4px;
+}
+
+/* Social Media Widget */
+
+ul.smedia {
+	padding:10px;
+	margin:0;
+	overflow:hidden;
+}
+
+ul.smedia li {
+	display:block; 
+	float:left;
+	padding:6px;
+	list-style:0;
+	background:0;
+	margin:0;
+	border:0;
+}
+
+
+/* 8. Footer
+   ----------------------------------------------------------------------------*/
+
+footer.main-footer {
+	background:#222;
+	border-top:4px solid #e64c10;
+	width:100%;
+	font-size:12px;
+	margin:0 auto;
+	padding:10px 0;
+	color:#999;
+	line-height: 1.5em;
+}
+
+.main-footer a, 
+.main-footer a:visited {
+	color:#999;
+	text-decoration:none;
+}
+
+.bottom-footer a, 
+.bottom-footer a:visited  {
+	color:#444;
+	text-decoration:none;
+}
+
+.main-footer a:hover {
+	color:#999;
+	text-decoration:underline;
+}
+
+.bottom-footer a:hover {
+	color:#444;
+	text-decoration:underline;
+}
+
+.footerwidget h3 {
+	font-size:14px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:normal;
+	margin:0 0 10px 0;
+	padding:0;
+	border:0;
+	background:0;
+	color:#ccc;
+	text-transform:uppercase;
+}
+
+.main-footer .widgetarea {
+	overflow:hidden;
+	padding:20px 0 5px 0;
+}
+
+.footerwidget {
+	width:25%;
+	padding:10px 20px 10px;
+	float:left;
+}
+
+.footerwidget ul {
+	padding: 5px 5px 0 0;  
+}
+
+.footerwidget li {
+	line-height:1.3em;
+	padding:0;
+	text-indent:0;
+	margin-bottom:9px;
+	list-style:none;
+}
+
+footer.bottom-footer {
+	padding:15px 0; 
+	overflow:hidden;  
+	background:#e5e5e5;
+	color:#444;
+	font-size:11px;
+}
+
+.bottom-footer .leftside {
+	width:64%;
+	float:left;
+}
+
+.bottom-footer ul {
+	padding:0 0 6px 0;
+	margin:0;
+}
+
+.bottom-footer  li {
+	display:inline;
+	margin:0 10px 0 0; 
+	padding:0 10px 0 0;
+	background:url(images/divider.png) right center no-repeat;
+	line-height:12px;
+}
+
+.bottom-footer  li:last-child  {
+	margin:0;
+	padding:0; 
+	background:0;
+}
+
+.bottom-footer .rightside {
+	width:33%;
+	float:right;
+	text-align:right;
+}
+
+/*  Bonus Terms and Conditions */
+
+.termsrow { 
+	padding:0 10px 15px; 
+	font-size:12px; 
+	color:#888; 
+}
+.top-sportsbook-cards .termsrow { 
+	padding:10px 10px 0;
+}
+
+.topsiteswidget-row .termsrow {
+	clear:both;
+	padding:4px 8px 8px;
+	font-size:11px;
+}
+
+.termsrow-review {
+	padding: 0 10px 25px;
+	font-size: 12px;
+	color: #888;
+	margin: -20px 0 0 0;
+}
+
+
+/* 9. Media Queries
+   ----------------------------------------------------------------------------*/
+   
+   
+ @media screen and (min-width:1px) and (max-width:1099px) {
+ 
+ 
+ .navbar {
+	display:none;
+}
+ 
+  #mobile-menu-btn{
+		display: block;
+		border: none;
+		cursor: pointer;
+		padding: 6px;
+		border-radius: 3px;
+		-moz-border-radius:3px;
+	background: #e5e5e5;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+	
+	#mobile-menu-btn:focus{
+		outline: none;
+	}
+
+	#mobile-menu{
+		display: none;
+		position: absolute;
+		top:60px;
+		right:0;
+		z-index:9999;
+		width: 100%;
+		background: #444;	
+	}
+	
+	#mobile-menu .logomobile{
+		color: #fff;
+		font-size: 26px;
+		font-weight: 900;
+		font-family: 'Arial',sans-serif;
+		padding: 10px 5px 10px 10px
+	}
+	#mobile-menu ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#mobile-menu ul li{
+		border-top: 1px solid #555;
+		position: relative;
+	}
+
+	#mobile-menu .menu-item-has-children .arrow{
+		content: "\25bc ";
+		position: absolute;
+		display: block;
+		border-left: 1px solid #555;
+		top: 0;
+		right:0;
+		color: #fff;
+		padding: 10px;
+		cursor: pointer;
+	}
+	#mobile-menu .menu-item-has-children .arrow.up{
+		display: none;
+	}
+	#mobile-menu .menu-icon-up > .arrow.down{
+		display: none !important;
+	}
+	#mobile-menu .menu-icon-up > .arrow.up{
+		display: block !important;
+		background-color: #555;
+	}
+	#mobile-menu ul li a{
+		position: relative;
+		color: #fff;
+		text-decoration: none;
+		padding: 10px;
+		font-family: 'Arial',sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 38px;
+		z-index:99999;
+	}
+	#mobile-menu ul ul{
+		display: none;
+		padding-left: 15px;
+	}
+	#mobile-menu ul ul a{
+		padding-left: 30px;
+	}
+	#mobile-menu .open{
+		display: block;
+	}
+	
+	.main-content.showsidebar {
+    float: none;
+    width: 100%;
+    padding: 20px;
+}
+
+footer.bottom-footer {
+    padding: 15px;
+}
+	
+ 
+
+ }
+
+   
+@media screen and (min-width:768px) and (max-width:1099px) {
+
+.outside {
+	width:768px;
+}
+
+.searchgo {
+	display:none;
+}
+
+.wrap,
+.contentarea {
+	width:748px;
+}
+
+.main-content {
+	float:none;
+	width:100%;
+	padding:15px 2%;
+}
+
+.sidebar { 
+	float:none;
+	padding:15px 15px;
+	background:#f3f3f3;
+	width:100%;
+	font-size:1.2em;
+}
+
+.main-footer .widgetarea {
+	width:100%;
+	float:none;
+	padding:0 15px;
+}
+
+.sb-review .col3 {
+    width: 35%;
+}
+
+.sb-review .col3 figure {
+    height: 200px;
+}
+
+.sb-review .col3 img {
+    min-height: 200px;
+}
+
+.sb-review .col1 {
+    width: 29%;
+}
+
+.sb-review .col2 {
+    width: 36%;
+    padding: 20px 25px;
+}
+
+
+}
+
+@media screen and (max-width:650px){
+
+.news {
+    width: 47%;
+	margin: 0 1.5% 25px;
+}
+
+.news figure {
+    height: 150px;
+}
+
+}
+
+
+@media screen and (min-width:1px) and (max-width:767px) {
+
+
+.outside {
+	width:100%;
+}
+
+.wrap,
+.contentarea {
+	width:100%;
+}
+
+.topheader,
+.headerwidgets,
+.searchgo {
+	display:none;
+}
+
+.sidebar {
+	float:none;
+	padding:15px 15px;
+	background:#f3f3f3;
+	width:100%;
+	font-size:1.2em;
+}
+
+.main-content, .leftside .main-content {
+	float:none;
+	width:100%;
+	padding:15px 2%;
+}
+
+.header-logo  {
+	float:none;
+	margin:0 auto;
+	text-align:center;
+	width:96%;
+	padding:0 2% 20px 0;
+}
+
+/* Footer */
+
+.main-footer .widgetarea {
+	width:96%;
+	float:none;
+	padding:0 2%;
+}
+
+.footerwidget {
+	width:46%;
+	padding-top:10px;
+	padding-bottom:10px;
+	float:left;
+}
+
+.top-footer .about,
+.top-footer .share {
+	width:100%;
+	float:none;
+	padding:10px 0;
+}
+
+.slide-content {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    text-align: center;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.top-sites-row .featcol {
+    display: none;
+}
+
+.top-sites-row .casinocol {
+    width: 27%;
+}
+
+.top-sites-row .depcol, .top-sites-row .ratecol {
+    width: 25%;
+}
+
+.top-sites-row .visitcol {
+    width: 23%;
+}
+
+ul.top-sportsbook-cards li {
+    display: block;
+    margin: 0 0 10px;
+    padding: 15px 0;
+	width:100%;
+}
+
+.sb-review .col3 img {
+    min-height: 200px;
+}
+
+.sb-review .col3 figure {
+    height: 200px;
+    margin: 0;
+}
+
+.sb-review .col3 {
+    padding: 0px 0 0;
+}
+
+.sb-review .col1, .sb-review .col2, .sb-review .col3 {
+    float: none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sb-review .col3 {
+    padding: 0px 0 0;
+}
+
+.sb-review .col2 h4 {
+	text-align:center;
+}
+
+.newslist.horizontal .news figure {
+    width: 300px;
+    margin: 0 auto 15px;
+    float:none;
+    height: 200px;
+	max-width:100%;
+}
+
+}
+
+@media screen and (min-width: 1px) and (max-width:479px){
+
+.news {
+    width: 100%;
+    display: block;
+    margin: 0 0 15px;
+}
+
+.news figure {
+    height: 150px;
+}
+
+.newslist {
+    margin: 0;
+}
+
+.header-logo img {
+	max-width:200px;
+	height:auto;
+	
+}
+
+
+/* Widgets */
+
+.newsletterform .newsletterinput { 
+	width:220px; 
+}
+
+/* review */
+
+.reviewtitle {
+	float:none;
+	margin-right:0;
+	padding-bottom:5px;
+}
+
+.rightbonus {
+	float:none;
+}
+
+.rightscreen {
+	float:none;
+	margin:0 auto 25px auto;
+	width:242px;
+}
+
+.revrating{
+	float:none; 
+	width:100%; 
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+.rightscreen img {
+	margin-bottom:15px;
+}
+
+.midsites td,  .midsites th{
+padding: 10px 2px;
+}
+
+
+/* Footer */
+
+.main-footer .widgetarea {
+	width:95%;
+	float:none;
+	padding:0 2.5%;
+}
+
+.footerwidget {
+	width:100%;
+	padding:15px 0;
+	float:none;
+}
+
+.bottom-footer .leftside {
+	width:100%;
+	float:none;
+	padding-bottom:15px;
+}
+
+.bottom-footer .rightside {
+	width:100%;
+	float:none;
+	text-align:center;
+}
+
+.hideme {
+	display:none;
+}
+
+.top-sites-heading, .top-sites-body span.rankcir {
+    display: none;
+}
+
+.top-sites-row .casinocol {
+    width: 40%;
+}
+
+.top-sites-row .depcol {
+    width: 60%;
+}
+
+.top-sites-row .ratecol, .top-sites-row .visitcol {
+    width: 50%;
+}
+
+.newslist.horizontal .news figure {
+    width: 100%;
+    float:none;
+    height: 200px;
+}
+
+.slide-content h2 {
+    font-size: 24px;
+}
+
+.slide-item {
+    height: 250px;
+}
+
+.slide-item img {
+    min-height: 250px;
+}
+
+img.alignleft,img.alignright {
+	margin: 0 auto 20px;
+	max-width:100%;
+	float:none;
+}
+
+
+}

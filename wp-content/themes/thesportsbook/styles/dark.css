@@ -1,0 +1,77 @@
+
+/*----------------Dark Stylesheet-------------------------*/
+/*---------------------------------------------------------*/
+
+/* General
+   ----------------------------------------------------------------------------*/
+
+body {
+    background: #fff url(images/bg.png) top repeat-x;
+}
+
+h1 {
+	border-bottom:4px solid #e40001; 
+}
+
+h2 {
+	border-bottom:3px solid #e40001; 
+}
+
+/* Header Navigation
+   ----------------------------------------------------------------------------*/
+
+header.main-header {
+    background: none;
+}
+
+.nav li.current-menu-item, 
+.nav li.current-menu-parent {
+	background:#e40001;
+}
+
+nav.navbar {
+	border-bottom:3px solid #e40001; 
+}
+
+.nav li a:hover, 
+.nav li a:active {
+	background:#e40001;
+}	
+
+.header-logo a { 
+		color:#fff;
+	}
+
+.header-logo a:hover {
+    color: #eee;
+}
+
+/* Sidebar
+   ----------------------------------------------------------------------------*/
+
+.sidebar h3 {
+    border-bottom: 3px solid #e40001;
+}
+
+/* Footer
+   ----------------------------------------------------------------------------*/
+
+footer.main-footer {
+	border-top:4px solid #e40000;
+}
+
+footer.bottom-footer {
+	background:#111;
+	color:#777;
+}
+
+.bottom-footer a, 
+.bottom-footer a:visited  {
+	color:#777;
+	text-decoration:none;
+}
+
+.bottom-footer a:hover {
+	color:#777;
+	text-decoration:underline;
+}
